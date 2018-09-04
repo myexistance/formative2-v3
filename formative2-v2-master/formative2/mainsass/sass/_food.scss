@@ -1,0 +1,85 @@
+.food{
+	height:auto;
+	margin:0%;
+	width:100%;
+	float: left;
+	
+}
+
+.col1{
+	width:45%;
+	float:left;
+	
+}
+
+#img-food{
+	width:100%;
+	
+	height:700px;
+	padding-top:20px;
+
+}
+
+.col2{
+	width:50%;
+	float:left;
+}
+
+ #heading-food{
+   width:70%;
+   padding-left:15%;
+   }
+
+.col2-food {
+	width: 55%;
+}
+
+
+
+ .para-food{
+   margin:auto;
+   width:70%;
+   height:300px;
+   padding-left: 3%;
+   padding-right: 5%;
+   text-align: justify;
+   line-height: 25px;
+   }
+
+
+.col2:after{
+	clear:both;
+}
+
+
+.food:after {
+	clear:both;
+	}
+	
+
+@media only screen and (max-width:500px){
+	.food{
+	 width:100%;
+	 height:auto;
+	 float:none;
+	}
+	.col1 {
+	width:100%;
+	float:none;
+	height:auto;
+
+	}
+
+	.col2 {
+	width:100%;
+	float:none;
+	height:auto;
+
+	}
+
+	#img-food{
+	width:100%;
+	height:auto;
+	float:none;
+	}
+}
